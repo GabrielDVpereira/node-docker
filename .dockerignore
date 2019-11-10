@@ -1,0 +1,4 @@
+# Arquivos que o docker deve ignorar 
+
+# ignoramos o nodemodules pois ele sempre será recriado com o comando npm install
+node_modules 
