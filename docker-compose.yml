@@ -11,3 +11,8 @@ services:
     - 3000:3000
    volumes: 
     - .:/usr/app
+
+  # app sera o nome da aplicação no container
+  # build ira procurar pelo diretorio do nosso docker file e executalo 
+  # ports sera onde as portas no nosso servidor ira rodar
+  # volumes são todos os arquivos alterados que serão refletidos na nossa aplicação
